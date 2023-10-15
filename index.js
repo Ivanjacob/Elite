@@ -1,6 +1,6 @@
 // Type: JavaScript
   var typed = new Typed('#typed', {
-    strings: ['Python Developer', 'Web Developer', 'Data Anlyst', 'Article Writer', 'Academic Writer', 'Freelancer'],
+    strings: ['Python Developer', 'Web Developer', 'Data Analyst', 'Article Writer', 'Academic Writer', 'Freelancer'],
     stringsElement: null,
     typeSpeed: 10,
     startDelay: 150,
@@ -13,3 +13,6 @@
     attr: null,
     contentTypeL: 'html',
 });
+// Mixitup
+var container = $(".mixitup");
+mixitup(container);

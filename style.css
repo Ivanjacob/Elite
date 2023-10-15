@@ -126,7 +126,7 @@ nav{
     font-weight: 600;
 }
 /* About */
-#about-me{
+#about-me, #what-i-do, #works{
     padding: 3rem 0;
 }
 .aboutImage{
@@ -142,3 +142,94 @@ nav{
 .about-text h6{
     margin: 2rem 0;
 }
+
+/* SERVICES */
+.whatIdo{
+    padding: 5rem 0;
+    background-color: var(--main);
+}
+.whatido-box{
+    padding: 2rem 3rem;
+    color: var(--gray);
+    background-color: var(--sub-main);
+    font-size: .7rem;
+    box-shadow: inset 3px 3px 20px 1px #002648;
+}
+.whatido-box i{
+    margin: 2rem;
+    font-size: 2.5rem;
+    color: var(--white);
+}
+.whatido-box h3{
+    color: var(--yellow);
+}
+
+/* works */
+.work-button{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work-button button{
+    margin: 1rem;
+    padding: .5rem 2rem;
+    background-color: unset;
+    font-weight: 500;
+    border: 2px solid #002648;
+    font-size: .8rem;
+}
+.work-box{
+    background-color: var(--gray);
+    height: 300px;
+    position: relative;
+}
+.work-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work-overlay{
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    right: 22px;
+    bottom: 22px;
+    background-color: #000000af;
+    transition: ease-in-out .5s;
+    text-align: center;
+    transform: scale(0);
+}
+.work-overlay button{
+    width: 40%;
+    padding: .7rem 0;
+    bottom: var(--white);
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--yellow);
+}
+.work-box:hover .work-overlay{
+    transform: scale(1);
+    transition: ease-in-out .5s;
+}
+.mixitup-control-active{
+    background-color: var(--main) !important;
+    color: var(--white) !important;
+    /*border: 2px solid var(--yellow) !important;*/
+}
+.gaps{
+    gap: 40px;
+}
+.pagination li{
+    padding: .4rem 1.1rem;
+    border: 2px solid #FFB000;
+    margin: 0 .5rem;
+    font-weight: 700;
+    color: var(--main);
+}
+.pagination .active{
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
