@@ -92,9 +92,9 @@ hr{
     background-color: var(--main);
 }
 .navbar-brand img{
-    width: 100%;
-    height: 40px;
-    object-fit: contain;
+    width: 200px;
+    height: 60px;
+    object-fit: cover;
 }
 nav ul li a{
     color: var(--white) !important;
@@ -323,6 +323,8 @@ footer{
     font-size: .8rem;
 }
 footer img{
+    width: 400px;
+    height: 35px;
     object-fit: contain;
 }
 footer a{
@@ -330,4 +332,9 @@ footer a{
     border: 1px solid #FFB000;
     border-radius: 100PX;
     color: var(--yellow);
+}
+footer a:hover{
+    background-color: var(--yellow);
+    color: var(--white);
+    transition: ease-in-out .5s;
 }
