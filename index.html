@@ -33,6 +33,7 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <!-- JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/script.js"></script>
@@ -48,12 +49,13 @@
             <img src="./images/logo.png" alt="image" />
           </a>
 
+          <!-- this display in small device-->
           <button
             class="navbar-toggler"
             type="button"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNav3">
@@ -78,6 +80,26 @@
             </ul>
           </div>
         </nav>
+        <!-- menu in small device-->
+        <ul class="small-device rounded">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#what-i-do">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
       </div>
 
       <!--HERO SECTION-->
@@ -107,7 +129,7 @@
     <section id="about-me">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-5">
+          <div class="col-12 col-md-6 col-lg-5 p-0">
             <div class="aboutImage">
               <img
                 alt="image"

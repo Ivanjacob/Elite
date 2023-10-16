@@ -16,3 +16,10 @@
 // Mixitup
 var container = $(".mixitup");
 mixitup(container);
+
+// navtoggle
+$(document).ready(function () {
+  $(".navbar-toggler").click(function(){
+    $(".small-device").slideToggle();
+  });
+});
